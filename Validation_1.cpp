@@ -133,29 +133,25 @@ int main()
 	int year;
 	std::string email;
 	std::string website_link;
-	std::string credit_card_number;
 	std::string phone_number;
 
-//	std::cout << "Your Email: ";
-//	std::cin >> email;
-//	std::cout << "Day: ";
-//	std::cin >> day;
-//	std::cout << "Month: ";
-//	std::cin >> month;
-//	std::cout << "Year: ";
-//	std::cin >> year;
-//	std::cout << "Website link: ";
-//	std::cin >> website_link;
-	std::cout << "Credit card number: ";
-	std::cin >> credit_card_number;
-//	std::cout << "Phone number: ";
-//	std::cin >> phone_number;
+	std::cout << "Your Email: ";
+	std::cin >> email;
+	std::cout << "Day: ";
+	std::cin >> day;
+	std::cout << "Month: ";
+	std::cin >> month;
+	std::cout << "Year: ";
+	std::cin >> year;
+	std::cout << "Website link: ";
+	std::cin >> website_link;
+	std::cout << "Phone number: ";
+	std::cin >> phone_number;
 
-//	f_email(email);
-//	f_date(day, month, year);
-//	f_website_link(website_link);
-	f_credit_card_number(credit_card_number);
-//	f_phone_number(phone_number);
+	f_email(email);
+	f_date(day, month, year);
+	f_website_link(website_link);
+	f_phone_number(phone_number);
 
 	return 0;
 }
